@@ -1,0 +1,43 @@
+{
+	"info": {
+		"_postman_id": "a44df889-bee5-4102-83d4-3a54111fae5b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40120695"
+	},
+	"item": [
+		{
+			"name": "calculatorAPI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/test?A=5&B=5&operation=multiply",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"test"
+					],
+					"query": [
+						{
+							"key": "A",
+							"value": "5"
+						},
+						{
+							"key": "B",
+							"value": "5"
+						},
+						{
+							"key": "operation",
+							"value": "multiply"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
